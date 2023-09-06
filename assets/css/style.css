@@ -1,17 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Oswald&display=swap');
 
+a:link {
+    color: red;
+}
 
-
-
-.site-title{
-    padding-left: 3%;
-    padding-top: 3%;
+a:hover {
+    color: blue;
+}
+.heading {
+    margin:0;
+    font-family: 'Cormorant Garamond', serif;
+    padding-left:6%;
+    padding-top:3%;
+    padding-bottom: 3%;
+    font-weight: 300;
+    font-size: 300%;
+    text-decoration: none;
+    letter-spacing: 16px;
+    color: #e17070;
+    /* background-color: red; */
 
 }
 
-.side-nav {
+.subhead {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 21px;
+    font-weight: 500;
     text-align: left;
-    padding-left: 3%;
-    padding-top: 3%;
+    padding-top: 20px;
 
+}
+.side-nav li{
+    /* background-color: grey; */
+    margin-right: 20px;
+    margin-left: 90px;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 300;
+    font-size: 25px;
+    display: inline-block;
+    position: relative;
+    padding-top: 30px;
+    width: 100%;
+}
 
+.instagram {
+    position: relative;
+    padding-left: 20px;
 }
