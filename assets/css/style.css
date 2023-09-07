@@ -1,50 +1,103 @@
-@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300&family=Oswald&display=swap');
+/* // Source mixin
+@mixin make-container($padding-x: $container-padding-x) {
+    width: 100%;
+    padding-right: $padding-0;
+    padding-left: $padding-1%;
+    margin-right: auto;
+    margin-left: -3%;
+} */
 
-a:link {
-    color: red;
-}
-
-a:hover {
-    color: blue;
-}
+/* Header Styling */
 .heading {
-    margin:0;
+    margin-left:4%;
     font-family: 'Cormorant Garamond', serif;
-    padding-left:6%;
+    padding-left:1%;
     padding-top:3%;
     padding-bottom: 3%;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 300%;
     text-decoration: none;
-    letter-spacing: 16px;
-    color: #e17070;
-    /* background-color: red; */
+    letter-spacing: 19px;
 
 }
 
+.header-link {
+    color:rgb(225, 112, 112);
+    text-decoration: none;
+}
+
+.header-link:hover {
+    color: rgb(177, 114, 114);
+}
 .subhead {
     font-family: 'Cormorant Garamond', serif;
     font-style: italic;
     font-size: 21px;
-    font-weight: 500;
+    font-weight: bold;
     text-align: left;
     padding-top: 20px;
+    padding-left: 8px;
+    letter-spacing: 16px;
+    color: rgb(177, 114, 114);
 
 }
+
+/* Side Navigation Styling */
+
 .side-nav li{
-    /* background-color: grey; */
-    margin-right: 20px;
-    margin-left: 90px;
+    margin-top: 10%;
+    padding-top: 10%;
+    /* padding-right: 3%; */
+    /* padding-left: 50%; */
     font-family: 'Cormorant Garamond', serif;
-    font-weight: 300;
+    font-weight: 500;
     font-size: 25px;
     display: inline-block;
     position: relative;
-    padding-top: 30px;
-    width: 100%;
+    width: 50%;
 }
 
+ul {
+    padding-left: 0;
+}
 .instagram {
     position: relative;
-    padding-left: 20px;
+    padding-left: 25px;
+    text-decoration: none;
 }
+
+.instagram:hover {
+    color: rgb(225, 112, 112)
+}
+
+
+.nav-button {
+    color: rgb(78, 91, 106);
+    text-decoration: none;
+   
+}
+
+.nav-button:hover {
+    color:rgb(177, 114, 114)
+}
+
+/* Gallery Styling */
+.gallery {
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+img:hover {
+    transform: scale(1.2);
+}
+
+.photogallery {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+}
+
+.images {
+    max-width: 200px;
+}
+
