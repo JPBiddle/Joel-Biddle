@@ -1,8 +1,8 @@
 /* // Source mixin
 @mixin make-container($padding-x: $container-padding-x) {
     width: 100%;
-    padding-right: $padding-0;
-    padding-left: $padding-1%;
+    padding-right: 20%;
+    padding-left: 20%;
     margin-right: auto;
     margin-left: -3%;
 } */
@@ -43,22 +43,24 @@
 }
 
 /* Side Navigation Styling */
+.side-nav {
+    padding-left: 100px;
+    
+}
+
 
 .side-nav li{
-    margin-top: 10%;
-    padding-top: 10%;
-    /* padding-right: 3%; */
-    /* padding-left: 50%; */
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     font-size: 25px;
+    padding: 10%;
     display: inline-block;
-    position: relative;
-    width: 50%;
 }
 
 ul {
-    padding-left: 0;
+    padding-top: 10%;
+    padding-left: 50%;
+    display: inline-block;
 }
 .instagram {
     position: relative;
@@ -97,7 +99,11 @@ img:hover {
     flex-flow: row wrap;
 }
 
-.images {
-    max-width: 200px;
+.svg {
+    vertical-align: left;
 }
 
+.images {
+    max-width: 200px;
+
+}
