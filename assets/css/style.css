@@ -9,16 +9,15 @@
 
 /* Header Styling */
 .heading {
-    margin-left:4%;
     font-family: 'Cormorant Garamond', serif;
-    padding-left:1%;
+    padding-left:10%;
     padding-top:3%;
-    padding-bottom: 3%;
+    padding-bottom: 1%;
     font-weight: 500;
     font-size: 300%;
     text-decoration: none;
     letter-spacing: 19px;
-
+    background-color: rgb(251, 251, 251);
 }
 
 .header-link {
@@ -53,18 +52,19 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 500;
     font-size: 25px;
+    text-align: center;
+    margin-top: 30%;
     padding: 10%;
     display: inline-block;
 }
 
 ul {
-    padding-top: 10%;
+    padding-top: 20%;
     padding-left: 50%;
     display: inline-block;
+    text-align: center;
 }
 .instagram {
-    position: relative;
-    padding-left: 25px;
     text-decoration: none;
 }
 
@@ -83,10 +83,13 @@ ul {
     color:rgb(177, 114, 114)
 }
 
+
+
 /* Gallery Styling */
 .gallery {
     padding-left: 10%;
     padding-top: 3%;
+    margin-bottom: 5%;
 }
 
 img:hover {
@@ -99,11 +102,7 @@ img:hover {
     flex-flow: row wrap;
 }
 
-.svg {
-    vertical-align: left;
-}
-
 .images {
-    max-width: 200px;
-
+    max-width: 25%;
+    margin: 20px;
 }
