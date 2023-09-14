@@ -36,38 +36,45 @@
                         <li><a target="_blank" href="http://instagram.com/jpb_imagery" <i class="fa-brands fa-instagram instagram" style="color: #b17272;"></i></a></li>
                     </ul>
                 </div>
- 
-             <div class="col-10 contact-form">
+
+                                <div class="col-2">
+                                </div>
+
+             <div class="col-6 contact-form">
                 <h3 class="contact-title">Contact</h3>
 
                 <form id="contact-us" class="contact-us" method="post" action="contact-form-process.php">
                     
                     <div>
-                        <label for="Name" class="contact-name">Your name</label>
-                        <div class="contact-us">
-                            <input type="text" id="Name" name="Name" class="contact-name" required>
+                        <label for="Name" class="contact-text">Your name</label>
+                        <div class="contact-input">
+                            <input type="text" id="Name" name="Name" class="contact-input" required>
                         </div>
                     </div>
             
-                    <div class="contact-us">
-                        <label for="Email" class="contact-email">Your email address</label>
-                        <div class="contact-us">
-                            <input type="email" id="Email" name="Email" class="contact-us" required>
+                    <div>
+                        <label for="Email" class="contact-text">Your email address</label>
+                        <div class="contact-input">
+                            <input type="email" id="Email" name="Email" class="contact-input" required>
                         </div>
                     </div>
             
-                    <div class="contact-us">
-                        <label for="Message" class="contact-message">Your message</label>
-                        <div class="contact-us">
-                            <textarea id="Message" name="Message" class="contact-message" rows="6" maxlength="3000" required></textarea>
+                    <div>
+                        <label for="Message" class="contact-text">Your message</label>
+                        <div class="contact-input">
+                            <textarea id="Message" name="Message" class="contact-input" rows="6" maxlength="3000" required></textarea>
                         </div>
                     </div>
             
                     <div class="contact-us">
                         <button type="submit" id="submit" class="contact-submit">Send Message</button>
                     </div>
-            
-                </form>
+                 </form>
+
+                 <div class="col-2">
+                </div>
+
+             </div>
     </footer>
 </body>
 </html>
