@@ -1,13 +1,8 @@
-/* // Source mixin
-@mixin make-container($padding-x: $container-padding-x) {
-    width: 100%;
-    padding-right: 20%;
-    padding-left: 20%;
-    margin-right: auto;
-    margin-left: -3%;
-} */
+
 
 /* Header Styling */
+
+
 .heading {
     font-family: 'Cormorant Garamond', serif;
     padding-left: 10%;
@@ -42,7 +37,10 @@
 
 }
 
+
 /* Side Navigation Styling */
+
+
 .side-nav {
     padding-left: 100px;
     
@@ -87,6 +85,8 @@ ul {
 
 
 /* Gallery Styling */
+
+
 .gallery {
     padding-left: 10%;
     padding-top: 3%;
@@ -116,6 +116,7 @@ ul {
     padding-top: 5%;
 }
 
+
 /* Timeline styling */
 
 
@@ -130,7 +131,6 @@ ul {
     margin: 0;
     padding: 0;
     font-family: 'Cormorant Garamond', serif;
-    /* background: #F1F2F6; */
  }
  
  h1 {
