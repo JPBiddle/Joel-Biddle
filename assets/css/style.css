@@ -114,10 +114,22 @@ a {
 
 .about {
     position: relative;
+    margin-top: -4%;
 }
 
 .about-header {
-    padding-top: 5%;
+    padding-top: 6%;
+}
+
+.about-text {
+    max-width: 960px;
+    display:block;
+    text-align: center;
+}
+
+#about-timeline {
+    display: inline-block;
+    width: 100%;
 }
 
 
