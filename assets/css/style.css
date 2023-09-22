@@ -129,7 +129,7 @@ a {
 }
 
 .about-header {
-    min-width: 960px;
+    width: 77%;
     margin-left: 20%;
     margin-right: 20%;
     padding-top: 10%;
@@ -138,6 +138,10 @@ a {
     padding-right: 10%;
 }
 
+.about-img {
+    height: 100vh;
+    vertical-align: middle;
+}
 .about-text {
     max-width: 960px;
     display:block;
