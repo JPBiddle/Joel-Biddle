@@ -147,7 +147,7 @@ a {
     text-align: center;
     margin-bottom: 2%;
     font-size: 50px;
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(78, 91, 106);
     padding-left: 20%;
     padding-right: 20%;
@@ -297,8 +297,8 @@ a {
  }
 
  .contact-text {
-    font-size: 23px;
-    font-weight: 500;
+    font-size: 25px;
+    font-weight: 400;
     color: rgb(78, 91, 106);  
  }
 
@@ -315,6 +315,39 @@ a {
 
  /* Latest Image Styling*/
 
- .latest-img {
-    max-width: 40vh;
+ .latest-image {
+    width: 100%;
+    padding-left: 20%;
+    margin-right: 20%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+ }
+
+ .latest-title {
+    font-size: 25px;
+    font-weight: 400;
+ }
+
+ #latest-img-content {
+    width: 60%;
+    display: inline-block;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    vertical-align: unset;
+ }
+
+ .map {
+    float: right;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    /* display: flex; */
+ }
+
+ .map-text {
+    max-width: 400px;
+    position: absolute;
+    display: inline-block;
+    padding-top: 1%;
+    font-size: 20px;
+    font-weight: 500;
  }
