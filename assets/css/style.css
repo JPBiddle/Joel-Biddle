@@ -87,7 +87,7 @@ ul {
 
 
 
-/* Gallery Styling */
+/* Gallery Styling */ 
 
 a {
     text-decoration: none;
@@ -98,13 +98,8 @@ a {
     width: -webkit-fill-available;
     padding-left: 20%;
     padding-right: 10%;
-
-    /* margin-left: 17%;
-    margin-right: 17%;
-    padding-top: 10%;
-    padding-bottom: 10%;
-    padding-left: 10%;
-    padding-right: 10%; */
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .images:hover {
@@ -122,40 +117,37 @@ a {
     margin: 2%;
 }
 
-.about {
-}
+/* About Page */
 
 .about-header {
-    margin-top: 230px;
     width: -webkit-fill-available;
+    padding-left: 22%;
+    padding-right: 13%;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
 .about-img {
     max-width: 100%;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    padding-left: 20%;
-    padding-right: 20%;
-}
-.about-text {
-    margin-top: 2%;
-    margin-bottom: 2%;
-    padding-left: 20%;
-    padding-right: 20%;
-    display:block;
-    text-align: center;
+    padding-top: 2%;
+    padding-bottom: 2%;
 }
 
-#about-timeline {
-    /* width: 100%;
-    display: inline-block;
-    margin-left: 30%;
-    margin-right: 20%; */
+.about-text {
+    margin-top: 2%;
+    margin-bottom: 5%;
+    padding-left: 20%;
+    padding-right: 10%;
+    display:block;
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .selected-exhib {
     text-align: center;
-    font-weight: 300;
+    margin-bottom: 2%;
+    font-size: 50px;
+    font-weight: 500;
     color: rgb(78, 91, 106);
     padding-left: 20%;
     padding-right: 20%;
@@ -179,7 +171,7 @@ a {
  
  h1 {
     text-align: center;
-    font-weight: 300;
+    font-weight: 500;
     color: rgb(78, 91, 106);
  }
  
@@ -250,17 +242,17 @@ a {
  .timeline-content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 25px;
+    font-size: 35px;
     font-weight: 500
  }
  
  .timeline-content span {
-    font-size: 15px;
+    font-size: 27px;
     color: rgb(78, 91, 106);
  }
  
  .timeline-content p {
-    font-size: 14px;
+    font-size: 25px;
     line-height: 1.5em;
     word-spacing: 1px;
     color: rgb(78, 91, 106);
@@ -285,7 +277,6 @@ a {
        direction: ltr;
     }
  }
-
 
  /* Contact Form */
 
