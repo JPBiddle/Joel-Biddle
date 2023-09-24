@@ -4,18 +4,12 @@
 
 
 .heading {
-    position: fixed;
     font-family: 'Cormorant Garamond', serif;
-    padding-top: 1%;
-    /* padding-bottom: 1%; */
-    padding-left: 5%;
-    padding-right: 5%;
     font-weight: 500;
     font-size: 300%;
     text-decoration: none;
     letter-spacing: 19px;
-    min-height: 165px;
-    min-width: 2500px;
+    text-align-last: center;
     background-color: rgb(251, 251, 251);
 }
 
@@ -38,6 +32,7 @@
     padding-left: 8px;
     padding-right: 8px;
     letter-spacing: 16px;
+    text-align-last: center;
     color: rgb(177, 114, 114);
 
 }
@@ -50,8 +45,6 @@
     position: fixed;
     padding-left: 6vh;
     padding-right: 6vh;
-    margin-top: 15vh;
-    margin-bottom: 15vh;
 }
 
 
@@ -100,7 +93,6 @@ a {
 
 
 .gallery {
-    margin-top: 230px;
     width: -webkit-fill-available;
     padding-left: 20%;
     padding-right: 20%;
