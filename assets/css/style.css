@@ -9,8 +9,11 @@
     font-size: 300%;
     text-decoration: none;
     letter-spacing: 19px;
-    text-align-last: center;
     background-color: rgb(251, 251, 251);
+    padding-left: 4%;
+    padding-right: 4%;
+    padding-top: 18px;
+    padding-bottom: 8px;
 }
 
 .header-link {
@@ -32,7 +35,6 @@
     padding-left: 8px;
     padding-right: 8px;
     letter-spacing: 16px;
-    text-align-last: center;
     color: rgb(177, 114, 114);
 
 }
@@ -43,8 +45,8 @@
 
 .side-nav {
     position: fixed;
-    padding-left: 6vh;
-    padding-right: 6vh;
+    padding-left: 0;
+    padding-right: 15%;
 }
 
 
@@ -95,7 +97,7 @@ a {
 .gallery {
     width: -webkit-fill-available;
     padding-left: 20%;
-    padding-right: 20%;
+    padding-right: 10%;
 
     /* margin-left: 17%;
     margin-right: 17%;
@@ -116,7 +118,7 @@ a {
 }
 
 .images {
-    max-width: 29%;
+    max-width: 20%;
     margin: 2%;
 }
 
