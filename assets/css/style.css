@@ -18,14 +18,16 @@
 
 @media screen and (max-width: 768px){
     .heading{
-        max-height: 13vh;
+        max-height: 15vh;
+        min-width: -webkit-fill-available;
+        width: -webkit-fill-available;
         font-size: 25px;
         padding-top: 4%;
         padding-bottom: 4%;
         text-align: center;
-        width: fit-content;
-    }
 }
+    }
+
 .header-link {
     color:rgb(225, 112, 112);
     text-decoration: none;
@@ -82,6 +84,14 @@
     }
 }
 
+@media screen and (max-width: 768px){
+    .instagram-mob {
+    color: #b17272;
+    margin-left: 1%;
+    margin-top: 15px;
+    }
+}
+
 ul {
     padding-top: 20%;
     padding-left: 55%;
@@ -108,9 +118,8 @@ ul {
 }
 
 .mob-nav {
-    text-align: center;
-    font-size: 65%;
-    letter-spacing: 10px;
+    font-size: 16px;
+    letter-spacing: 3px;
     list-style: none;
     display: inline-flex;
     padding: 0;
@@ -158,6 +167,7 @@ a {
 @media screen and (max-width: 768px){
     .gallery{
         display: contents;
+        padding: 10%;
     }
 }
  @media screen and (max-width: 768px){
