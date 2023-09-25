@@ -18,13 +18,14 @@
 
 @media screen and (max-width: 768px){
     .heading{
-        max-height: 9vh;
+        max-height: 13vh;
         font-size: 25px;
         padding-top: 4%;
         padding-bottom: 4%;
         text-align: center;
+        width: fit-content;
     }
-
+}
 .header-link {
     color:rgb(225, 112, 112);
     text-decoration: none;
@@ -50,9 +51,9 @@
 
 @media screen and (max-width: 768px){
     .subhead{
-    display:none;
+    display: none;
     }
-
+}
 
 
 /* Side Navigation Styling */
@@ -73,6 +74,12 @@
     margin-top: 30%;
     padding: 10%;
     display: inline-block;
+}
+
+@media screen and (max-width: 768px){
+    .side-nav li{
+    display:none;
+    }
 }
 
 ul {
@@ -100,6 +107,24 @@ ul {
     color:rgb(177, 114, 114)
 }
 
+.mob-nav {
+    text-align: center;
+    font-size: 65%;
+    letter-spacing: 10px;
+    list-style: none;
+    display: inline-flex;
+    padding: 0;
+}
+
+.mob-nav li {
+ padding: 10px;
+}
+
+@media screen and (min-width: 769px){
+    .mob-nav{
+        display: none;
+    }
+}
 /* Gallery Styling */ 
 
 a {
@@ -134,7 +159,7 @@ a {
     .gallery{
         display: contents;
     }
-
+}
  @media screen and (max-width: 768px){
         .images{
             max-width: 80%;
@@ -143,7 +168,7 @@ a {
             margin-left: 10%;
             margin-right: 10%;
         }
-
+    }
 /* About Page */
 
 .about-header {
