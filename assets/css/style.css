@@ -386,8 +386,9 @@ a {
  }
 
  .contact-title {
-    font-weight: 500;
+    font-weight: 400;
     color: rgb(78, 91, 106);
+    margin-bottom: 15px;
  }
 
  .contact-text {
