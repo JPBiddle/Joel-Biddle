@@ -324,6 +324,7 @@ a {
     width: 16px;
     height: 16px;
     border-radius: 50%;
+    padding: 6px;
     border: 2px solid #F5F7FA;
     background: rgb(225, 112, 112);
     margin-top: 10px;
@@ -339,12 +340,12 @@ a {
  .timeline-content h3 {
     margin-top: 5px;
     margin-bottom: 5px;
-    font-size: 35px;
+    font-size: 25px;
     font-weight: 500
  }
  
  .timeline-content span {
-    font-size: 27px;
+    font-size: 25px;
     color: rgb(78, 91, 106);
  }
  
@@ -356,23 +357,16 @@ a {
  }
  
  
- @media screen and (max-width: 950px) {
-    .container:before {
-       left: 8px;
-       width: 2px;
-    }
-    .timeline-block {
-       width: 100%;
-       margin-bottom: 30px;
-    }
-    .timeline-block-right {
-       float: none;
-    }
- 
-    .timeline-block-left {
-       float: none;
-       direction: ltr;
-    }
+ @media screen and (max-width: 700px) {
+.timeline-content span {
+    font-size: 20px;
+}
+.timeline-content h3{
+    font-size: 20px;
+}
+.timeline-content p{
+    font-size: 20px;
+}
  }
 
  /* Contact Form */
