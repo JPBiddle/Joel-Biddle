@@ -1,7 +1,10 @@
 
 
 /* Header Styling */
-
+header {
+    width: -webkit-fill-available;
+    margin: auto;
+}
 
 .heading {
     font-family: 'Cormorant Garamond', serif;
@@ -12,19 +15,20 @@
     background-color: rgb(251, 251, 251);
     padding-left: 4%;
     padding-right: 4%;
-    padding-top: 18px;
-    padding-bottom: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    margin: auto;
 }
 
 @media screen and (max-width: 768px){
     .heading{
-        max-height: 15vh;
-        min-width: -webkit-fill-available;
-        width: -webkit-fill-available;
+        width: fit-content;
+        width: 100%;
         font-size: 25px;
         padding-top: 4%;
         padding-bottom: 4%;
         text-align: center;
+        margin: auto;
 }
     }
 
@@ -42,10 +46,11 @@
     font-size: 21px;
     font-weight: bold;
     text-align: left;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 8px;
-    padding-right: 8px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-left: 1%;
+    padding-right: 1%;
+    margin: auto;
     letter-spacing: 16px;
     color: rgb(177, 114, 114);
 
@@ -63,8 +68,8 @@
 
 .side-nav {
     position: fixed;
-    padding-left: 0;
-    padding-right: 15%;
+    padding: 0;
+    margin: auto;
 }
 
 
@@ -72,8 +77,6 @@
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
     font-size: 25px;
-    text-align: center;
-    margin-top: 30%;
     padding: 10%;
     display: inline-block;
 }
@@ -93,10 +96,13 @@
 }
 
 ul {
-    padding-top: 20%;
-    padding-left: 55%;
     display: inline-block;
     text-align: center;
+    list-style: none;
+    margin: auto;
+    padding: 15%;
+    width: fit-content;
+
 }
 .instagram {
     text-decoration: none;
@@ -123,6 +129,8 @@ ul {
     list-style: none;
     display: inline-flex;
     padding: 0;
+    margin: auto;
+    width: fit-content;
 }
 
 .mob-nav li {
