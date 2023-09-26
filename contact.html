@@ -28,7 +28,7 @@
 <body>
     
     <!--Header-->
-    <header>
+    <header class="row">
         <div class="col-12 heading">
         <a class="header-link" href="index.html" class="site-title">Joel Biddle</a>
 
@@ -57,7 +57,7 @@
                 <div class="side-nav col-2">
                     <ul>
                         <li><a class="nav-button" href="index.html">Gallery</a></li>
-                        <li><a class="nav-button" href="about.html">About</a></li>
+                        <li><a class="nav-button" href="about.html" >About</a></li>
                         <li><a class="nav-button" href="contact.html" style="font-weight: 700;">Contact</a></li>
                         <li><a class="nav-button" href="latest.html">Latest</a></li>
                         <br>
@@ -65,46 +65,37 @@
                     </ul>
                 </div>
 
-             <div class="col-9 contact-form">
-                <h3 class="contact-title">Contact</h3>
-
-                <form id="contact-us" class="contact-us" method="post" action="contact-form-process.php">
+                <div classs="col-10" id="contact-form">
+                    <h3 class="contact-title">Contact</h3>
+                        <form id="contact-us" class="contact-us" action="thanks.html">
+                            <div class="input-box">
+                                <label for="Name" class="contact-text">Your name</label>
+                                <div class="contact-input">
+                                    <input type="text" id="Name" name="Name" class="contact-input" required>
+                                </div>
+                            </div>
                     
-                    <div>
-                        <label for="Name" class="contact-text">Your name</label>
-                        <div class="contact-input">
-                            <input type="text" id="Name" name="Name" class="contact-input" required>
-                        </div>
-                    </div>
-            
-                    <div>
-                        <label for="Email" class="contact-text">Your email address</label>
-                        <div class="contact-input">
-                            <input type="email" id="Email" name="Email" class="contact-input" required>
-                        </div>
-                    </div>
-            
-                    <div>
-                        <label for="Message" class="contact-text">Your message</label>
-                        <div class="contact-input">
-                            <textarea id="Message" name="Message" class="contact-input" rows="6" maxlength="3000" required></textarea>
-                        </div>
-                    </div>
-            
-                    <div>
-                        <button>
-                            <a type="button" href="thanks.html" target="_self" class="contact-submit">Send Message</a>
-                        </button> 
-                        <!-- <a href="thanks.html" target="_blank">
-                        <button type="submit" class="contact-submit">Send Message</button>
-                        </a> -->
-                    </div>
-                 </form>
-
-                 <div class="col-2">
+                            <div class="input-box">
+                                <label for="Email" class="contact-text">Your email address</label>
+                                <div class="contact-input">
+                                    <input type="email" id="Email" name="Email" class="contact-input" required>
+                                </div>
+                            </div>
+                    
+                            <div class="input-box">
+                                <label for="Message" class="contact-text">Your message</label>
+                                <div class="contact-input">
+                                    <textarea id="Message" name="Message" class="contact-input" rows="6" maxlength="3000" required></textarea>
+                                </div>
+                            </div>
+                    
+                            <div>
+                                <button type="submit" href="thanks.html" target="_self" class="contact-submit">Send</button> 
+                            </div>
+                     </form>
                 </div>
-
             </div>
+
     </footer>
     
     <script src="https://kit.fontawesome.com/ba6cdc6122.js" crossorigin="anonymous"></script>
