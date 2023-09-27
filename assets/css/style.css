@@ -500,8 +500,8 @@ a {
 .top-button {
     position: fixed;
     z-index: 99;
-    bottom: 4%;
-    right: 15%;
+    bottom: 5%;
+    right: 10%;
 }
 .top-button-style{
     background: none;
