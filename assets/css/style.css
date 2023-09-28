@@ -12,7 +12,6 @@ body {
   }
   
   header {
-    /* width: 100%; */
     margin: auto;
   }
   
@@ -77,7 +76,6 @@ body {
   }
   
   .index-content {
-    /* width: 95%; */
     margin: auto;
   }
   
@@ -146,8 +144,6 @@ body {
     list-style: none;
     display: inline-flex;
     padding: 0;
-    /* margin: auto; */
-    /* width: fit-content; */
   }
   
   .mob-nav li {

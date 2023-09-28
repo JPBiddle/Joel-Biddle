@@ -1,4 +1,8 @@
+**
+
 # Photography Portfolio Site
+
+![Portfolio Mockup](assets/readme-files/portfolio-site.png)
 
 ## Table of Contents
 
@@ -7,86 +11,103 @@
   - [Table of Contents](#table-of-contents)
   - [Introduction](#introduction)
   - [UX](#ux)
-      - [Demographics](#demographics)
-      - [User Stories](#user-stories)
-        - [Current User](#current-user)
-        - [New User](#new-user)
-      - [Development Planes](#development-planes)
-        - [Strategy Plane](#strategy-plane)
-      - [Design](#design)
+    - [Demographics](#demographics)
+    - [User Stories](#user-stories)
+      - [Current User](#current-user)
+      - [New User](#new-user)
+      - [People looking for photos](#people-looking-for-photos)
+    - [Development Planes](#development-planes)
+    - [Strategy](#strategy)
+    - [Scope](#scope)
+    - [Structure](#structure)
+    - [Skeleton](#skeleton)
+    - [Surface](#surface)
+    - [Design](#design)
+      - [Colour Scheme](#colour-scheme)
+      - [Typography](#typography)
+      - [Imagery](#imagery)
   - [Features](#features)
+    - [Home page](#home-page)
+    - [About](#about)
+    - [Contact](#contact)
+    - [Latest](#latest)
+    - [Future features](#future-features)
   - [Issues and Bugs](#issues-and-bugs)
   - [Technologies Used](#technologies-used)
+    - [Main Languages Used](#main-languages-used)
+    - [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
   - [Testing](#testing)
   - [Deployment](#deployment)
+    - [Deploying](#deploying)
   - [Credits](#credits)
+    - [Code](#code)
   - [Acknowledgements](#acknowledgements)
 
-
-# Introduction 
-
-***
+## Introduction
 
 This portfolio website was designed as a waypoint between social media and as a platform to view photography in more depth, whilst also providing methods of contacting the site owner, myself. Additional information such as a bio and a timeline of exhibitions will also be included.
 
-This website was created as the first of four milestone projects as part of my Web Development Diploma at Code Institure. 
+This website was created as the first of four milestone projects as part of my Web Development Diploma at Code Institure.
 
 The primary requirements are that the website be responsive, static and uses HTML and CSS. The site must be at least 3 Pages.
 
-
-# UX
-
 ***
+
+## UX
 
 ### Demographics
 
 Users for this website will be as follows;
- * Existing social media followers
- * Users who are new
- * People looking to enjoy beautiful photographs
+
+- Existing social media followers
+- Users who are new
+- People looking to enjoy beautiful photographs
 
 ### User Stories
 
-##### Current User
+#### Current User
 
 1. Current followers must be able to find new bio information and previous exhibition timelines easily.
 2. Current followers must be able to easily navigate to a place to send a direct email message.
 3. Content must be navigated in a small number of steps.
 
-##### New User
+#### New User
 
 1. New users must intuitively navigate the site.
 2. New users must be able to find relevant information easily.
 3. The site must be attractive enough to encourage return visits in future.
 
-##### People looking for photos
+#### People looking for photos
 
 1. These users must be able to navigate through the gallery easily.
 2. Links to contact and social media must be accessible easily.
+
+***
 
 ### Development Planes
 
 To create a website that covers all of the answers to the user stories and is as functional as possible, the developer has to cover the main user needs, which includes access to a bio and exhibition list, a gallery, contact page and latest image page.
 
-##### Strategy 
-    
-The strategy was broken down by focussing on the essential elements of a portfolio website, as well as the different types of users that would access these elements. 
+***
 
-- ### Roles:
+### Strategy
+
+The strategy was broken down by focussing on the essential elements of a portfolio website, as well as the different types of users that would access these elements.
+
+- #### Roles
 
   - Current followers
   - New users
   - Photography enthusiasts
 
-- ### Demographic
+- #### Demographic
 
   - All ages but typically adult
   - Residing in UK or USA
   - Keen interest in photography
   - Enjoys minimalist aesthetic
   
-
-- ### Psychographic
+- #### Psychographic
 
   - Lifestyles:
     - Interest in photography
@@ -96,7 +117,7 @@ The strategy was broken down by focussing on the essential elements of a portfol
     - Creative
     - Liberal
   
-- ### Values
+- #### Values
 
   - Interest in local community and local artists
   - Interest in the individual as opposed to corporation/business
@@ -111,12 +132,46 @@ The website needs to enable the user to:
 
 The website needs to enable the site manager to:
 
--Recieve messages from users
--Update content when neccessary
+- Recieve messages from users
+- Update content when neccessary
 
+***
 
+### Scope
+
+Defining the requirements based on the strategy plane, two categories have been identified. These will be content and function requirements.
+
+- Content Requirements
+  - A gallery of at least 10-12 images, as standard with portfolios. More is better.
+  - A biography (short).
+  - Latest image content
+  - Latest image description
+
+- Function Requirements
+  - An interactive gallery with the ability to enlarge
+  - A contact form
+  - Links to instagram
+  - Ease of navigation between all pages.
+
+***
+
+### Structure
+
+Based on the above information the site was then organised into a structure to enable an efficient navigation.
+
+***
+
+### Skeleton
+
+Wireframes were produced using balsamiq. These are to showcase the site pages with the user experience in mind.
+
+***
+
+### Surface
 
 [Back to top](#photography-portfolio-site)
+
+***
 
 ### Design
 
@@ -132,20 +187,72 @@ The website header and back to top button was also the salmon pink and the subhe
 
 This less saturated colour was also used as the colour to represent when a mouse hovers over a navigation.
 
+![Colour Palette](assets/readme-files/colour-palette.png)
+
 #### Typography
-The typography chosen was sourced from Google Fonts. 
+
+The typography chosen was sourced from Google Fonts.
 
 My chosen font was 'Cormorant Garamond' with Serif as a backup.
 
 A combination of font weights were deployed as well as a sparing use of italic font for the sub header and the selected exhibition header when in mobile mode.
 
 #### Imagery
+
 All imagery is original content from my own archive, including the favicon which was produced using an image featuring in the index gallery.
 
+***
 
 ## Features
 
-***
+The website features a consistent set of navigation and a header.
+
+- The header is not static as it felt like it took took much real estate when it was tested.
+- The navigation is static as some of the pages became ouite long with content and therefore it was neccessary, however it is not static for mobile users.
+- Where pages are long enough, a back to top button is available to mobile users.
+
+### Home page
+
+The home page serves as the gallery as well as the landing page. It presents the most valuable content right away. It is simple and follows the B2C principle of presenting the 'product' up front and not overwhelming the audience with text and options.
+
+The gallery is interactive for desktop users - hover your mouse over a thumbnail and it will enlarge to indicate where your mouse is.
+
+There is also a lightbox function to allow users to view the gallery in a carousel.  
+
+On smaller screens the navigation is moved to the top and the gallery becomes a column of single images for the viewer to scroll through.
+
+### About
+
+Here we are presented with a header image and a short biography. This is intended as a longer form bio than would be available on social media. 
+
+Following that there is a timeline displaying an exhibition timeline. 
+
+On smaller screens the heading image moves to spead accross the full width, the text sits below and the timeline reduces in size.
+
+### Contact
+
+Keeping in theme witht he rest of the website, the contact page is minimal and functional.
+
+The user is presented with an input for name, email address and a message. Name and email are required.
+
+On smaller screens the contact for adjusts to fit while the navigation on the left is hidden in favour of the navigation to the top.
+
+When the contact form is submitted you are directed to a page which deplays 'Thank you for your message!'.
+
+### Latest
+
+The final page is a display of the artists latest work with a short description and a google map to show where the photograph was taken.
+
+As an extension to social media, this offers visual information and a more detailed description than would usually be found. 
+
+The google map is hidden for mobile users to encourage a faster loading time and to reduce clutter on a smaller screen.
+
+### Future features
+
+Due to time restraints I was unable to make use of the following features:
+  - Print store
+  - Pop up description for each image
+  - Pop up description for each exhibition
 
 ## Issues and Bugs
 
@@ -156,7 +263,7 @@ All imagery is original content from my own archive, including the favicon which
 ## Technologies Used
 ### Main Languages Used
 - HTML5
-  - Bootstrap
+  - Bootstrap 5 & lightbox
 - CSS
 
 ### Frameworks, Libraries and Programs
@@ -180,7 +287,8 @@ All imagery is original content from my own archive, including the favicon which
   - Here I learned how to create a back to top button as well as how to deploy bootstrap.
 - CodePen 
   - Here I earned how to greate a timeline and how to create a responsive gallery.
-  - 
+- Google maps
+  - Here I was able to obtain to code to place a google map into my latest image page.
 
 ***
 
@@ -218,6 +326,11 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - W3schools
   - I used W3schools to learn how to create a back to top button using only HTML and CSS. [Link](https://www.w3schools.com/howto/howto_js_scroll_to_top.asp)
   - I also used W3Schools to help with deploying Bootstrap and Lightboxes.
+- GitHub
+  - Here I was guided on how to implement lightboxes. [Link](https://trvswgnr.github.io/bs5-lightbox/#:~:text=Lightbox%20for%20Bootstrap%205%20will,lightbox%22%20to%20your%20anchor%20tags.&text=import%20Lightbox%20from%20'bs5%2Dlightbox,%2Dlightbox%2Dtoggle')
+- Google map
+  - I was able to source the code for a google map here.[Link](https://www.embed-map.com/
+  - )
 
 ## Acknowledgements
 
