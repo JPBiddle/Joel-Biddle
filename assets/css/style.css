@@ -1,4 +1,9 @@
 /* Header Styling */
+
+body {
+    width: fit-content;
+    min-width: 100%;
+}
 .page-row {
     width: fit-content;
     margin: auto;
@@ -71,8 +76,8 @@
   }
   
   .index-content {
-    --bs-gutter-x: 0;
-    display: block;
+    width: 95%;
+    margin: auto;
   }
   
   /* Side Navigation Styling */
@@ -80,7 +85,7 @@
   
   .side-nav {
     position: fixed;
-    padding: 0;
+    padding: 3%;
     margin: auto;
   }
   
@@ -168,6 +173,12 @@
   a {
     text-decoration: none;
   }
+
+  .photogallery {
+    display: flex;
+    align-content: flex-start;
+    flex-flow: row wrap;
+  }
   
   .gallery {
     width: -webkit-fill-available;
@@ -176,35 +187,19 @@
     padding-top: 2%;
     padding-bottom: 2%;
   }
-  
-  .images:hover {
-    transform: scale(1.23);
-  }
-  
+
   @media screen and (max-width: 950px) {
-    .images:hover {
-      transform: none;
+    .gallery {
+      display: inline-block;
+      padding: 0;
     }
   }
-  
-  .photogallery {
-    display: flex;
-    align-content: flex-start;
-    flex-flow: row wrap;
-  }
-  
+
   .images {
     max-width: 20%;
     margin: 1%;
   }
-  
-  @media screen and (max-width: 950px) {
-    .gallery {
-      display: contents;
-      padding: 10%;
-    }
-  }
-  
+    
   @media screen and (max-width: 950px) {
     .images {
       width: -webkit-fill-available;
@@ -215,6 +210,17 @@
       margin-right: 10%;
     }
   }
+
+  .images:hover {
+    transform: scale(1.23);
+  }
+  
+  @media screen and (max-width: 950px) {
+    .images:hover {
+      transform: none;
+    }
+  }
+  
   
   /* About Page */
   
@@ -524,7 +530,7 @@
   .top-button {
     position: fixed;
     z-index: 99;
-    bottom: 5%;
+    bottom: 10%;
     right: 10%;
   }
   
