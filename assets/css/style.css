@@ -1,5 +1,9 @@
 /* Header Styling */
 
+#unfloated-container{
+    width: 1000px;
+}
+
 body {
     width: fit-content;
     min-width: 100%;
@@ -192,13 +196,11 @@ body {
       display: inline-block;
       padding: 0;
       margin: auto;
-      width: 100%;
     }
   }
 
   @media screen and (max-width: 950px) {
     .gallery {
-      /* display: inline-block; */
       display: none;
       padding: 0;
     }
