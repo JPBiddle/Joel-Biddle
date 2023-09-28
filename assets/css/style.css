@@ -8,7 +8,7 @@
   
   header {
     width: -webkit-fill-available;
-    margin: auto;
+    margin: 0;
   }
   
   .heading {
@@ -18,7 +18,6 @@
     color: rgb(225, 112, 112);
     text-decoration: none;
     letter-spacing: 19px;
-    /* background-color: rgb(251, 251, 251); */
     padding-left: 4%;
     padding-right: 4%;
     padding-top: 1%;
@@ -34,10 +33,9 @@
       letter-spacing: 15px;
       padding-top: 4%;
       padding-bottom: 4%;
-      padding-left: 0;
-      padding-right: 0;
       text-align: center;
       margin: auto;
+      min-width: fit-content;
     }
   }
   
@@ -72,6 +70,10 @@
     }
   }
   
+  .index-content {
+    --bs-gutter-x: 0;
+    display: block;
+  }
   
   /* Side Navigation Styling */
   
@@ -151,7 +153,8 @@
   }
   
   .mob-nav li {
-    padding: 10px;
+    padding-right: 20px;
+    margin: auto;
   }
   
   @media screen and (min-width: 950px) {
