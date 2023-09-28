@@ -1,5 +1,3 @@
-**
-
 # Photography Portfolio Site
 
 ![Portfolio Mockup](assets/readme-files/portfolio-site.png)
@@ -22,7 +20,6 @@
     - [Structure](#structure)
     - [Skeleton](#skeleton)
     - [Surface](#surface)
-    - [Design](#design)
       - [Colour Scheme](#colour-scheme)
       - [Typography](#typography)
       - [Imagery](#imagery)
@@ -135,6 +132,15 @@ The website needs to enable the site manager to:
 - Recieve messages from users
 - Update content when neccessary
 
+with this in mind I have produced a short diagram representing the relationship between the importance versu viability of elements of the site.
+
+<details>
+
+<summary>Viability chart</summary>
+
+![viability](assets/readme-files/viability.jpg)
+</details>
+
 ***
 
 ### Scope
@@ -159,21 +165,31 @@ Defining the requirements based on the strategy plane, two categories have been 
 
 Based on the above information the site was then organised into a structure to enable an efficient navigation.
 
+As you will see below the hierarchy is as simple as it possible.
+
+<details>
+
+<summary>Hierarchy</summary>
+
+![Hierarchy](assets/readme-files/hierarchy.png)
+</details>
+
 ***
 
 ### Skeleton
 
 Wireframes were produced using balsamiq. These are to showcase the site pages with the user experience in mind.
 
+<details>
+
+<summary>Wireframes</summary>
+
+![Wireframe](assets/readme-files/wireframe.png)
+</details>
+
 ***
 
 ### Surface
-
-[Back to top](#photography-portfolio-site)
-
-***
-
-### Design
 
 #### Colour Scheme
 
@@ -187,7 +203,12 @@ The website header and back to top button was also the salmon pink and the subhe
 
 This less saturated colour was also used as the colour to represent when a mouse hovers over a navigation.
 
+<details>
+
+<summary>Colour Palette</summary>
+
 ![Colour Palette](assets/readme-files/colour-palette.png)
+</details>
 
 #### Typography
 
@@ -211,6 +232,8 @@ The website features a consistent set of navigation and a header.
 - The navigation is static as some of the pages became ouite long with content and therefore it was neccessary, however it is not static for mobile users.
 - Where pages are long enough, a back to top button is available to mobile users.
 
+***
+
 ### Home page
 
 The home page serves as the gallery as well as the landing page. It presents the most valuable content right away. It is simple and follows the B2C principle of presenting the 'product' up front and not overwhelming the audience with text and options.
@@ -221,13 +244,17 @@ There is also a lightbox function to allow users to view the gallery in a carous
 
 On smaller screens the navigation is moved to the top and the gallery becomes a column of single images for the viewer to scroll through.
 
+***
+
 ### About
 
-Here we are presented with a header image and a short biography. This is intended as a longer form bio than would be available on social media. 
+Here we are presented with a header image and a short biography. This is intended as a longer form bio than would be available on social media.
 
-Following that there is a timeline displaying an exhibition timeline. 
+Following that there is a timeline displaying an exhibition timeline.
 
 On smaller screens the heading image moves to spead accross the full width, the text sits below and the timeline reduces in size.
+
+***
 
 ### Contact
 
@@ -239,6 +266,8 @@ On smaller screens the contact for adjusts to fit while the navigation on the le
 
 When the contact form is submitted you are directed to a page which deplays 'Thank you for your message!'.
 
+***
+
 ### Latest
 
 The final page is a display of the artists latest work with a short description and a google map to show where the photograph was taken.
@@ -247,12 +276,17 @@ As an extension to social media, this offers visual information and a more detai
 
 The google map is hidden for mobile users to encourage a faster loading time and to reduce clutter on a smaller screen.
 
+***
+
 ### Future features
 
 Due to time restraints I was unable to make use of the following features:
-  - Print store
-  - Pop up description for each image
-  - Pop up description for each exhibition
+
+- Print store
+- Pop up description for each image
+- Pop up description for each exhibition
+
+***
 
 ## Issues and Bugs
 
@@ -261,12 +295,15 @@ Due to time restraints I was unable to make use of the following features:
 ***
 
 ## Technologies Used
+
 ### Main Languages Used
+
 - HTML5
   - Bootstrap 5 & lightbox
 - CSS
 
 ### Frameworks, Libraries and Programs
+
 - Google Fonts
   - GoogleFonts was used to import the Cormorant Garamond and Serif fonts which were used in this project. 
 - Font Awesome
@@ -301,6 +338,7 @@ Due to time restraints I was unable to make use of the following features:
 This project was developed using CodeAnywhere and was then committed to GitHub using the GitPod terminal.
 
 ### Deploying
+
 ***
 
 To deploy this page to GitHub Pages from its GitHub repository, the following steps were taken:

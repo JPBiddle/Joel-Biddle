@@ -13,7 +13,7 @@ body {
   
   header {
     margin: auto;
-  }
+}
   
   .heading {
     font-family: 'Cormorant Garamond', serif;
@@ -47,6 +47,7 @@ body {
   .header-link {
     color: rgb(225, 112, 112);
     text-decoration: none;
+    margin-left: 2%;
   }
   
   .header-link:hover {
@@ -63,7 +64,7 @@ body {
     padding-bottom: 1%;
     padding-left: 1%;
     padding-right: 1%;
-    margin: auto;
+    margin-left: 1%;
     letter-spacing: 16px;
     color: rgb(177, 114, 114);
   
@@ -144,6 +145,7 @@ body {
     list-style: none;
     display: inline-flex;
     padding: 0;
+    margin-left: 2%;
   }
   
   .mob-nav li {
