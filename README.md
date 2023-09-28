@@ -30,6 +30,11 @@
     - [Latest](#latest)
     - [Future features](#future-features)
   - [Issues and Bugs](#issues-and-bugs)
+    - [Lightbox bug](#lightbox-bug)
+    - [Gallery misalignment](#gallery-misalignment)
+    - [Latest image page map](#latest-image-page-map)
+    - [Gallery hover in mobile](#gallery-hover-in-mobile)
+    - [Side navigation not lining up](#side-navigation-not-lining-up)
   - [Technologies Used](#technologies-used)
     - [Main Languages Used](#main-languages-used)
     - [Frameworks, Libraries and Programs](#frameworks-libraries-and-programs)
@@ -290,6 +295,26 @@ Due to time restraints I was unable to make use of the following features:
 
 ## Issues and Bugs
 
+### Lightbox bug
+
+When deploying lightbox I had a lot of trouble getting it to work. I had used allof the correct attributes and had later learned that the line of script for lightbox was supposed to be at the bottom of the page to load in the right order. After placing it there and it still not working I asked my tutor, Jason, who saw that the bootstrap code that was needed for the lightbox to work was below the lightbox code.
+After moving it above, Lightbox was able to use that bootstrap script and work in order.
+
+### Gallery misalignment
+
+My gallery was not centering itself properly with smaller screen sizes. Later I found that the padding on the mobile navigation was causing the misalignment and when removed the gallery was positioned correctly.
+
+### Latest image page map
+
+When first integrating the Google map into the latest page I found it quite difficult to work with. It didn't behave asI was expecting and it caused a lot of frustration. The solution was removing all of the styling that came with the embedded map and applying custom styling. I also found that the map was constructed from divs, iframes and anchors and changing the styling of each of these had a big impact so care was needed there.
+
+### Gallery hover in mobile
+
+I was finding it difficult to navigate through my website on mobile mode because of the hover function I had placed on my gallery. When at the bottom of the page, sometimes the image would enlarge and make it difficult to press the back to top button. The simplest solution was to remove the hover/enlarge feature on mobile mode as you don't have a mouse to use to hover regargless.
+
+### Side navigation not lining up 
+I wanted the fixed navigation to be in the same place accross all pages. I found that on the gallery page it was pushed to the right. After much testing I noticed that I had accidentally nested it inside the incorrect div and that was the cause of the issue.
+
 [Back to top](#photography-portfolio-site)
 
 ***
@@ -346,7 +371,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - Log into GitHub or create an account.
 - Find the GitHub Repository.
 - At the top of the repository, select Settings from the menu.
-- At the bottom of the Settings page find the "Pages" section.
+- At the bottom of the Settings page find the "Pages" section -located on the left hand navigation.
 - Under "Source" click the drop-down menu labelled "None" and select "Main".
 - Upon selection, the page will automatically refresh meaning that the website is now deployed.
 - Scroll back down to the "Pages" section to find the deployed link.
@@ -367,8 +392,7 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - GitHub
   - Here I was guided on how to implement lightboxes. [Link](https://trvswgnr.github.io/bs5-lightbox/#:~:text=Lightbox%20for%20Bootstrap%205%20will,lightbox%22%20to%20your%20anchor%20tags.&text=import%20Lightbox%20from%20'bs5%2Dlightbox,%2Dlightbox%2Dtoggle')
 - Google map
-  - I was able to source the code for a google map here.[Link](https://www.embed-map.com/
-  - )
+  - I was able to source the code for a google map here.[Link](https://www.embed-map.com/)
 
 ## Acknowledgements
 
