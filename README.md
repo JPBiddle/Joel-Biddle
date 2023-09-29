@@ -280,7 +280,7 @@ When the contact form is submitted you are directed to a page which deplays 'Tha
 
 The final page is a display of the artists latest work with a short description and a google map to show where the photograph was taken.
 
-As an extension to social media, this offers visual information and a more detailed description than would usually be found. 
+As an extension to social media, this offers visual information and a more detailed description than would usually be found.
 
 The google map is hidden for mobile users to encourage a faster loading time and to reduce clutter on a smaller screen.
 
@@ -319,7 +319,8 @@ When first integrating the Google map into the latest page I found it quite diff
 
 I was finding it difficult to navigate through my website on mobile mode because of the hover function I had placed on my gallery. When at the bottom of the page, sometimes the image would enlarge and make it difficult to press the back to top button. The simplest solution was to remove the hover/enlarge feature on mobile mode as you don't have a mouse to use to hover regargless.
 
-### Side navigation not lining up 
+### Side navigation not lining up
+
 I wanted the fixed navigation to be in the same place accross all pages. I found that on the gallery page it was pushed to the right. After much testing I noticed that I had accidentally nested it inside the incorrect div and that was the cause of the issue.
 
 [Back to top](#photography-portfolio-site)
@@ -337,7 +338,7 @@ I wanted the fixed navigation to be in the same place accross all pages. I found
 ### Frameworks, Libraries and Programs
 
 - Google Fonts
-  - GoogleFonts was used to import the Cormorant Garamond and Serif fonts which were used in this project. 
+  - GoogleFonts was used to import the Cormorant Garamond and Serif fonts which were used in this project.
 - Font Awesome
   - Font Awesome was used to import the Instragram icon for the navigation and the back to top chevron.
 - CodeAnywhere
@@ -354,7 +355,7 @@ I wanted the fixed navigation to be in the same place accross all pages. I found
   - W3C Validator was used at the end of the project to check forany errors written in my code for both HTML and CSS.
 - w3Schools
   - Here I learned how to create a back to top button as well as how to deploy bootstrap.
-- CodePen 
+- CodePen
   - Here I earned how to greate a timeline and how to create a responsive gallery.
 - Google maps
   - Here I was able to obtain to code to place a google map into my latest image page.
@@ -384,7 +385,6 @@ To deploy this page to GitHub Pages from its GitHub repository, the following st
 - Under "Source" click the drop-down menu labelled "None" and select "Main".
 - Upon selection, the page will automatically refresh meaning that the website is now deployed.
 - Scroll back down to the "Pages" section to find the deployed link.
-
 
 ## Credits
 
