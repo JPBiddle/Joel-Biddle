@@ -547,8 +547,8 @@ body {
   .top-button {
     position: fixed;
     z-index: 99;
-    bottom: 10%;
-    right: 10%;
+    bottom: 7%;
+    right: 3%;
   }
   
   .top-button-style {

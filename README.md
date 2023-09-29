@@ -32,6 +32,7 @@
     - [Latest](#latest)
     - [Future features](#future-features)
   - [Issues and Bugs](#issues-and-bugs)
+    - [Row width bug](#row-width-bug)
     - [Lightbox bug](#lightbox-bug)
     - [Gallery misalignment](#gallery-misalignment)
     - [Latest image page map](#latest-image-page-map)
@@ -296,6 +297,10 @@ Due to time restraints I was unable to make use of the following features:
 ***
 
 ## Issues and Bugs
+
+### Row width bug
+
+I found that using rows was causing some elements to be wider than the size of the screen it was supposed to be displayed on. I found the simplest fix was to put a width style directly on the row as it was only one causing the issue. I know to be careful when using these types of bootstrap elements in future.
 
 ### Lightbox bug
 
