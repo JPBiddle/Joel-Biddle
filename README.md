@@ -2,6 +2,8 @@
 
 ![Portfolio Mockup](assets/readme-files/portfolio-site.png)
 
+[View Live Project](https://jpbiddle.github.io/Joel-Biddle/index.html)
+
 ## Table of Contents
 
 
@@ -355,6 +357,8 @@ I wanted the fixed navigation to be in the same place accross all pages. I found
 ***
 
 ## Testing
+
+Please view full testing document [here](README.md)
 
 ***
 
